@@ -17,8 +17,8 @@
     "@types/node": "^18.11.9"
   },
   "scripts": {
-    "start": "knex migrate:latest && nodemon ./app.tsx --exec babel-node -e tsx",
-    "start:dev": "export NODE_ENV=development && knex migrate:latest && nodemon --watch ./ ./app.tsx"
+    "start": "knex migrate:latest && knex seed:run && nodemon ./app.tsx --exec babel-node -e tsx",
+    "start:dev": "export NODE_ENV=development && knex migrate:latest && knex seed:run && nodemon --watch ./ ./app.tsx"
   },
   "author": "",
   "license": "ISC",
