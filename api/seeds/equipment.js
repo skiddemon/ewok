@@ -4,10 +4,11 @@
  */
 exports.seed = async function (knex) {
   // Deletes ALL existing entries
-  await knex('table_name').del()
+  // await knex('table_name').del()
+  await knex('equipment').del()
   await knex('equipment').insert([
     {
-      "id": 662,
+      "id": 560,
       "conn": "6BAwvwJE",
       "server": "EWOK",
       "team": "Instructor",
@@ -24,7 +25,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 677,
+      "id": 601,
       "conn": "7nQe011S",
       "server": "EWOK",
       "team": "Instructor",
@@ -41,7 +42,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 678,
+      "id": 602,
       "conn": "03wn4x3U",
       "server": "EWOK",
       "team": "Instructor",
@@ -58,7 +59,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 679,
+      "id": 603,
       "conn": "rPwxSMEI",
       "server": "EWOK",
       "team": "Instructor",
@@ -75,7 +76,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 680,
+      "id": 604,
       "conn": "1kb2zlXm",
       "server": "EWOK",
       "team": "Instructor",
@@ -92,7 +93,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 681,
+      "id": 605,
       "conn": "2HPZvBfy",
       "server": "EWOK",
       "team": "Instructor",
@@ -109,7 +110,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 683,
+      "id": 606,
       "conn": "RU5Ny0Pr",
       "server": "EWOK",
       "team": "Instructor",
@@ -126,7 +127,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 684,
+      "id": 607,
       "conn": "phcfSUJu",
       "server": "EWOK",
       "team": "Instructor",
@@ -143,7 +144,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 685,
+      "id": 608,
       "conn": "ZmpqmPlo",
       "server": "EWOK",
       "team": "Instructor",
@@ -160,7 +161,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 686,
+      "id": 609,
       "conn": "mG3cGm2n",
       "server": "EWOK",
       "team": "Instructor",
@@ -177,7 +178,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 687,
+      "id": 610,
       "conn": "t0pQHlpQ",
       "server": "EWOK",
       "team": "Instructor",
@@ -194,7 +195,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 688,
+      "id": 611,
       "conn": "kin2dIjJ",
       "server": "EWOK",
       "team": "Instructor",
@@ -211,7 +212,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 689,
+      "id": 612,
       "conn": "iPuU3dzl",
       "server": "EWOK",
       "team": "Instructor",
@@ -228,7 +229,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 690,
+      "id": 613,
       "conn": "9YaZtrQx",
       "server": "EWOK",
       "team": "Instructor",
@@ -245,7 +246,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 682,
+      "id": 614,
       "conn": "FgJ6PXWj",
       "server": "EWOK",
       "team": "Instructor",
@@ -262,7 +263,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 691,
+      "id": 615,
       "conn": "CCi4wrmf",
       "server": "EWOK",
       "team": "Instructor",
@@ -279,7 +280,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 692,
+      "id": 616,
       "conn": "YO0mhM0F",
       "server": "EWOK",
       "team": "Instructor",
@@ -296,7 +297,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 694,
+      "id": 617,
       "conn": "yNYkkJOK",
       "server": "EWOK",
       "team": "Instructor",
@@ -313,7 +314,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 693,
+      "id": 618,
       "conn": "lR5z7HMm",
       "server": "EWOK",
       "team": "Instructor",
@@ -330,7 +331,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 695,
+      "id": 619,
       "conn": "d8O9sjrf",
       "server": "EWOK",
       "team": "Instructor",
@@ -347,7 +348,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 696,
+      "id": 620,
       "conn": "edf6qT0W",
       "server": "EWOK",
       "team": "Instructor",
@@ -364,7 +365,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 697,
+      "id": 621,
       "conn": "W846FS7Y",
       "server": "EWOK",
       "team": "Instructor",
@@ -381,7 +382,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 698,
+      "id": 622,
       "conn": "rHvtrgN9",
       "server": "EWOK",
       "team": "Instructor",
@@ -398,7 +399,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 699,
+      "id": 623,
       "conn": "3swQP7Wp",
       "server": "EWOK",
       "team": "Instructor",
@@ -415,7 +416,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 700,
+      "id": 624,
       "conn": "kYmegXT5",
       "server": "EWOK",
       "team": "Instructor",
@@ -432,7 +433,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 701,
+      "id": 625,
       "conn": "wnSWiebJ",
       "server": "EWOK",
       "team": "Instructor",
@@ -449,7 +450,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 702,
+      "id": 626,
       "conn": "VgU7Ok1T",
       "server": "EWOK",
       "team": "Instructor",
@@ -466,7 +467,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 661,
+      "id": 561,
       "conn": "eyF68ASW",
       "server": "EWOK",
       "team": "Instructor",
@@ -483,7 +484,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 704,
+      "id": 627,
       "conn": "P93yYEB9",
       "server": "EWOK",
       "team": "Instructor",
@@ -500,7 +501,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 703,
+      "id": 628,
       "conn": "UujkUwrW",
       "server": "EWOK",
       "team": "Instructor",
@@ -517,7 +518,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 705,
+      "id": 629,
       "conn": "XmYaGVAu",
       "server": "EWOK",
       "team": "Instructor",
@@ -534,7 +535,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 706,
+      "id": 630,
       "conn": "1Ikvf6pi",
       "server": "EWOK",
       "team": "Instructor",
@@ -551,7 +552,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 707,
+      "id": 631,
       "conn": "LCl8OrNV",
       "server": "EWOK",
       "team": "Instructor",
@@ -568,7 +569,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 708,
+      "id": 632,
       "conn": "4pxuHumY",
       "server": "EWOK",
       "team": "Instructor",
@@ -585,7 +586,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 709,
+      "id": 633,
       "conn": "XSBF23Qt",
       "server": "EWOK",
       "team": "Instructor",
@@ -602,7 +603,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 710,
+      "id": 634,
       "conn": "PgvtZhKm",
       "server": "EWOK",
       "team": "Instructor",
@@ -619,7 +620,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 711,
+      "id": 635,
       "conn": "fFNaKJ1G",
       "server": "EWOK",
       "team": "Instructor",
@@ -636,7 +637,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 712,
+      "id": 636,
       "conn": "8aIgz6OT",
       "server": "EWOK",
       "team": "Instructor",
@@ -653,7 +654,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 713,
+      "id": 637,
       "conn": "qS6tBygC",
       "server": "EWOK",
       "team": "Instructor",
@@ -670,7 +671,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 714,
+      "id": 638,
       "conn": "rWnd7Whq",
       "server": "EWOK",
       "team": "Instructor",
@@ -687,7 +688,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 715,
+      "id": 639,
       "conn": "Uspl0Vbx",
       "server": "EWOK",
       "team": "Instructor",
@@ -704,7 +705,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 716,
+      "id": 640,
       "conn": "T1u5zkOT",
       "server": "EWOK",
       "team": "Instructor",
@@ -721,7 +722,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 717,
+      "id": 641,
       "conn": "PsRN4rRr",
       "server": "EWOK",
       "team": "Instructor",
@@ -738,7 +739,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 718,
+      "id": 642,
       "conn": "LsXRt5y7",
       "server": "EWOK",
       "team": "Instructor",
@@ -755,7 +756,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 719,
+      "id": 643,
       "conn": "sy2sGx7O",
       "server": "EWOK",
       "team": "Instructor",
@@ -772,7 +773,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 720,
+      "id": 644,
       "conn": "JRbRYxck",
       "server": "EWOK",
       "team": "Instructor",
@@ -789,7 +790,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 722,
+      "id": 645,
       "conn": "r8eOEF8I",
       "server": "EWOK",
       "team": "Instructor",
@@ -806,7 +807,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 723,
+      "id": 646,
       "conn": "Nm1zqSt2",
       "server": "EWOK",
       "team": "Instructor",
@@ -823,7 +824,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 664,
+      "id": 647,
       "conn": "smRtMmxI",
       "server": "EWOK",
       "team": "Instructor",
@@ -840,7 +841,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 721,
+      "id": 648,
       "conn": "1D9Ny939",
       "server": "EWOK",
       "team": "Instructor",
@@ -857,7 +858,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 663,
+      "id": 562,
       "conn": "wTOrtMeE",
       "server": "EWOK",
       "team": "Instructor",
@@ -874,7 +875,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 728,
+      "id": 649,
       "conn": "l9ao26cM",
       "server": "EWOK",
       "team": "Instructor",
@@ -891,7 +892,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 729,
+      "id": 650,
       "conn": "tCmrKu8S",
       "server": "EWOK",
       "team": "Instructor",
@@ -908,7 +909,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 730,
+      "id": 651,
       "conn": "WDQI2go5",
       "server": "EWOK",
       "team": "Instructor",
@@ -925,7 +926,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 724,
+      "id": 652,
       "conn": "zC3ari57",
       "server": "EWOK",
       "team": "Instructor",
@@ -942,7 +943,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 725,
+      "id": 653,
       "conn": "Z1I8trd3",
       "server": "EWOK",
       "team": "Instructor",
@@ -959,7 +960,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 726,
+      "id": 654,
       "conn": "VVSIa2iR",
       "server": "EWOK",
       "team": "Instructor",
@@ -976,7 +977,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 731,
+      "id": 655,
       "conn": "dhpICkcT",
       "server": "EWOK",
       "team": "Instructor",
@@ -993,7 +994,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 732,
+      "id": 656,
       "conn": "w6tlQZuF",
       "server": "EWOK",
       "team": "Instructor",
@@ -1010,7 +1011,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 733,
+      "id": 657,
       "conn": "jLwM4gwM",
       "server": "EWOK",
       "team": "Instructor",
@@ -1027,7 +1028,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 734,
+      "id": 658,
       "conn": "SOtld4sq",
       "server": "EWOK",
       "team": "Instructor",
@@ -1044,7 +1045,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 727,
+      "id": 659,
       "conn": "4973dSGX",
       "server": "EWOK",
       "team": "Instructor",
@@ -1061,7 +1062,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 735,
+      "id": 660,
       "conn": "gGZbiBUH",
       "server": "EWOK",
       "team": "Instructor",
@@ -1078,7 +1079,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 736,
+      "id": 661,
       "conn": "uebhPG2P",
       "server": "EWOK",
       "team": "Instructor",
@@ -1095,7 +1096,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 737,
+      "id": 662,
       "conn": "f2iIsPZb",
       "server": "EWOK",
       "team": "Instructor",
@@ -1112,7 +1113,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 738,
+      "id": 663,
       "conn": "2bgFWoHV",
       "server": "EWOK",
       "team": "Instructor",
@@ -1129,7 +1130,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 739,
+      "id": 664,
       "conn": "VjDwW8Tu",
       "server": "EWOK",
       "team": "Instructor",
@@ -1146,7 +1147,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 740,
+      "id": 665,
       "conn": "rGi7PQlW",
       "server": "EWOK",
       "team": "Instructor",
@@ -1163,7 +1164,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 741,
+      "id": 666,
       "conn": "iJq0Xze1",
       "server": "EWOK",
       "team": "Instructor",
@@ -1180,7 +1181,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 742,
+      "id": 667,
       "conn": "sV8GUgMy",
       "server": "EWOK",
       "team": "Instructor",
@@ -1197,7 +1198,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 743,
+      "id": 668,
       "conn": "CBzgLsyt",
       "server": "EWOK",
       "team": "Instructor",
@@ -1214,7 +1215,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 744,
+      "id": 669,
       "conn": "rJSLchGC",
       "server": "EWOK",
       "team": "Instructor",
@@ -1231,7 +1232,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 745,
+      "id": 670,
       "conn": "xZQlUUXF",
       "server": "EWOK",
       "team": "Instructor",
@@ -1248,7 +1249,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 746,
+      "id": 671,
       "conn": "2UJ3lX1j",
       "server": "EWOK",
       "team": "Instructor",
@@ -1265,7 +1266,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 665,
+      "id": 563,
       "conn": "ZZiMJ1Pz",
       "server": "EWOK",
       "team": "Instructor",
@@ -1282,7 +1283,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 747,
+      "id": 672,
       "conn": "4OP5ea8y",
       "server": "EWOK",
       "team": "Instructor",
@@ -1299,7 +1300,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 748,
+      "id": 673,
       "conn": "TRGXjxAT",
       "server": "EWOK",
       "team": "Instructor",
@@ -1316,7 +1317,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 749,
+      "id": 674,
       "conn": "nwBcjV1L",
       "server": "EWOK",
       "team": "Instructor",
@@ -1333,7 +1334,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 750,
+      "id": 675,
       "conn": "cewGHWSE",
       "server": "EWOK",
       "team": "Instructor",
@@ -1350,7 +1351,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 751,
+      "id": 676,
       "conn": "3iaRe4hd",
       "server": "EWOK",
       "team": "Instructor",
@@ -1367,7 +1368,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 752,
+      "id": 677,
       "conn": "XRQ54Uy6",
       "server": "EWOK",
       "team": "Instructor",
@@ -1384,7 +1385,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 753,
+      "id": 678,
       "conn": "aIDcsv7O",
       "server": "EWOK",
       "team": "Instructor",
@@ -1401,7 +1402,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 754,
+      "id": 679,
       "conn": "fY09PqJk",
       "server": "EWOK",
       "team": "Instructor",
@@ -1418,7 +1419,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 755,
+      "id": 680,
       "conn": "S9Vzc3s7",
       "server": "EWOK",
       "team": "Instructor",
@@ -1435,7 +1436,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 756,
+      "id": 681,
       "conn": "8wcP24g5",
       "server": "EWOK",
       "team": "Instructor",
@@ -1452,7 +1453,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 757,
+      "id": 682,
       "conn": "ZSbX8Rqn",
       "server": "EWOK",
       "team": "Instructor",
@@ -1469,7 +1470,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 758,
+      "id": 683,
       "conn": "WuKOj4AO",
       "server": "EWOK",
       "team": "Instructor",
@@ -1486,7 +1487,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 759,
+      "id": 684,
       "conn": "LXwCvB4R",
       "server": "EWOK",
       "team": "Instructor",
@@ -1503,7 +1504,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 760,
+      "id": 685,
       "conn": "TrCrlUfb",
       "server": "EWOK",
       "team": "Instructor",
@@ -1520,7 +1521,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 761,
+      "id": 686,
       "conn": "qIhMpIeS",
       "server": "EWOK",
       "team": "Instructor",
@@ -1537,7 +1538,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 762,
+      "id": 687,
       "conn": "31SMSF57",
       "server": "EWOK",
       "team": "Instructor",
@@ -1554,7 +1555,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 763,
+      "id": 688,
       "conn": "fcpXg0aV",
       "server": "EWOK",
       "team": "Instructor",
@@ -1571,7 +1572,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 764,
+      "id": 689,
       "conn": "gnvtEHiL",
       "server": "EWOK",
       "team": "Instructor",
@@ -1588,7 +1589,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 765,
+      "id": 690,
       "conn": "PoJVCzOl",
       "server": "EWOK",
       "team": "Instructor",
@@ -1605,7 +1606,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 766,
+      "id": 691,
       "conn": "oB4XWjc6",
       "server": "EWOK",
       "team": "Instructor",
@@ -1622,7 +1623,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 769,
+      "id": 692,
       "conn": "M8N3pjXH",
       "server": "EWOK",
       "team": "Instructor",
@@ -1639,7 +1640,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 770,
+      "id": 693,
       "conn": "aX9tG0Mo",
       "server": "EWOK",
       "team": "Instructor",
@@ -1656,7 +1657,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 771,
+      "id": 694,
       "conn": "bgHJzNFh",
       "server": "EWOK",
       "team": "Instructor",
@@ -1673,7 +1674,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 772,
+      "id": 695,
       "conn": "uORk8yr2",
       "server": "EWOK",
       "team": "Instructor",
@@ -1690,7 +1691,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 767,
+      "id": 696,
       "conn": "LZOzzbD7",
       "server": "EWOK",
       "team": "Instructor",
@@ -1707,7 +1708,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 768,
+      "id": 697,
       "conn": "vUWOYa7l",
       "server": "EWOK",
       "team": "Instructor",
@@ -1724,7 +1725,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 666,
+      "id": 564,
       "conn": "6pHqhDkk",
       "server": "EWOK",
       "team": "Instructor",
@@ -1741,7 +1742,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 671,
+      "id": 570,
       "conn": "c9RygFOf",
       "server": "EWOK",
       "team": "Instructor",
@@ -1758,7 +1759,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 787,
+      "id": 701,
       "conn": "zsg2dgvH",
       "server": "EWOK",
       "team": "Instructor",
@@ -1775,7 +1776,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 773,
+      "id": 702,
       "conn": "VjGji7pf",
       "server": "EWOK",
       "team": "Instructor",
@@ -1792,7 +1793,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 774,
+      "id": 703,
       "conn": "WwGtNERW",
       "server": "EWOK",
       "team": "Instructor",
@@ -1809,7 +1810,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 775,
+      "id": 704,
       "conn": "VTIlRh4L",
       "server": "EWOK",
       "team": "Instructor",
@@ -1826,7 +1827,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 776,
+      "id": 705,
       "conn": "Nc2h0Og2",
       "server": "EWOK",
       "team": "Instructor",
@@ -1843,7 +1844,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 777,
+      "id": 706,
       "conn": "OW2GBu7W",
       "server": "EWOK",
       "team": "Instructor",
@@ -1860,7 +1861,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 778,
+      "id": 707,
       "conn": "a1SqjjvS",
       "server": "EWOK",
       "team": "Instructor",
@@ -1877,7 +1878,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 779,
+      "id": 708,
       "conn": "aree4PaO",
       "server": "EWOK",
       "team": "Instructor",
@@ -1894,7 +1895,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 780,
+      "id": 709,
       "conn": "mHKNnLxj",
       "server": "EWOK",
       "team": "Instructor",
@@ -1911,7 +1912,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 782,
+      "id": 710,
       "conn": "2m3gQH5C",
       "server": "EWOK",
       "team": "Instructor",
@@ -1928,7 +1929,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 781,
+      "id": 711,
       "conn": "RZ322RV5",
       "server": "EWOK",
       "team": "Instructor",
@@ -1945,7 +1946,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 783,
+      "id": 712,
       "conn": "CH8GoAxC",
       "server": "EWOK",
       "team": "Instructor",
@@ -1962,7 +1963,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 784,
+      "id": 713,
       "conn": "3DlaWimm",
       "server": "EWOK",
       "team": "Instructor",
@@ -1979,7 +1980,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 785,
+      "id": 714,
       "conn": "8cfLHD0q",
       "server": "EWOK",
       "team": "Instructor",
@@ -1996,7 +1997,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 786,
+      "id": 715,
       "conn": "6ruAfBHl",
       "server": "EWOK",
       "team": "Instructor",
@@ -2013,7 +2014,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 788,
+      "id": 716,
       "conn": "riIkOHlN",
       "server": "EWOK",
       "team": "Instructor",
@@ -2030,7 +2031,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 789,
+      "id": 717,
       "conn": "moJUXV19",
       "server": "EWOK",
       "team": "Instructor",
@@ -2047,7 +2048,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 790,
+      "id": 718,
       "conn": "TH5hrW49",
       "server": "EWOK",
       "team": "Instructor",
@@ -2064,7 +2065,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 791,
+      "id": 719,
       "conn": "RRvCJrkn",
       "server": "EWOK",
       "team": "Instructor",
@@ -2081,7 +2082,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 792,
+      "id": 720,
       "conn": "ozhdgIil",
       "server": "EWOK",
       "team": "Instructor",
@@ -2098,7 +2099,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 793,
+      "id": 721,
       "conn": "WgYhq5q6",
       "server": "EWOK",
       "team": "Instructor",
@@ -2115,7 +2116,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 794,
+      "id": 722,
       "conn": "yQiYdzu7",
       "server": "EWOK",
       "team": "Instructor",
@@ -2132,7 +2133,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 795,
+      "id": 723,
       "conn": "j6CMHjPB",
       "server": "EWOK",
       "team": "Instructor",
@@ -2149,7 +2150,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 796,
+      "id": 724,
       "conn": "TpAzimzA",
       "server": "EWOK",
       "team": "Instructor",
@@ -2166,7 +2167,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 797,
+      "id": 725,
       "conn": "CKDz70VV",
       "server": "EWOK",
       "team": "Instructor",
@@ -2183,7 +2184,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 798,
+      "id": 726,
       "conn": "loveJ9po",
       "server": "EWOK",
       "team": "Instructor",
@@ -2200,7 +2201,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 667,
+      "id": 571,
       "conn": "IOGLo3sW",
       "server": "EWOK",
       "team": "Instructor",
@@ -2217,7 +2218,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 811,
+      "id": 727,
       "conn": "P75aEJem",
       "server": "EWOK",
       "team": "Instructor",
@@ -2234,7 +2235,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 812,
+      "id": 728,
       "conn": "QQBUJUEP",
       "server": "EWOK",
       "team": "Instructor",
@@ -2251,7 +2252,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 813,
+      "id": 729,
       "conn": "te1yqogR",
       "server": "EWOK",
       "team": "Instructor",
@@ -2268,7 +2269,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 814,
+      "id": 730,
       "conn": "gNduJsk8",
       "server": "EWOK",
       "team": "Instructor",
@@ -2285,7 +2286,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 815,
+      "id": 731,
       "conn": "bCsoYIrj",
       "server": "EWOK",
       "team": "Instructor",
@@ -2302,7 +2303,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 816,
+      "id": 732,
       "conn": "6asujUOk",
       "server": "EWOK",
       "team": "Instructor",
@@ -2319,7 +2320,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 817,
+      "id": 733,
       "conn": "rugI6R00",
       "server": "EWOK",
       "team": "Instructor",
@@ -2336,7 +2337,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 799,
+      "id": 734,
       "conn": "n4QUBHe8",
       "server": "EWOK",
       "team": "Instructor",
@@ -2353,7 +2354,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 800,
+      "id": 735,
       "conn": "VEmwmzQ4",
       "server": "EWOK",
       "team": "Instructor",
@@ -2370,7 +2371,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 801,
+      "id": 736,
       "conn": "n5H14bNj",
       "server": "EWOK",
       "team": "Instructor",
@@ -2387,7 +2388,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 802,
+      "id": 737,
       "conn": "unskZw4j",
       "server": "EWOK",
       "team": "Instructor",
@@ -2404,7 +2405,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 803,
+      "id": 738,
       "conn": "Xp3SMmdO",
       "server": "EWOK",
       "team": "Instructor",
@@ -2421,7 +2422,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 804,
+      "id": 739,
       "conn": "HCjhqN9E",
       "server": "EWOK",
       "team": "Instructor",
@@ -2438,7 +2439,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 805,
+      "id": 740,
       "conn": "hIII2BTx",
       "server": "EWOK",
       "team": "Instructor",
@@ -2455,7 +2456,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 806,
+      "id": 741,
       "conn": "RRR6Zs6P",
       "server": "EWOK",
       "team": "Instructor",
@@ -2472,7 +2473,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 807,
+      "id": 742,
       "conn": "5ic0855M",
       "server": "EWOK",
       "team": "Instructor",
@@ -2489,7 +2490,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 808,
+      "id": 743,
       "conn": "iOfMeOWP",
       "server": "EWOK",
       "team": "Instructor",
@@ -2506,7 +2507,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 809,
+      "id": 744,
       "conn": "XJ8XGq3H",
       "server": "EWOK",
       "team": "Instructor",
@@ -2523,7 +2524,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 810,
+      "id": 745,
       "conn": "ceVGq3zD",
       "server": "EWOK",
       "team": "Instructor",
@@ -2540,7 +2541,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 821,
+      "id": 746,
       "conn": "UvMiC7La",
       "server": "EWOK",
       "team": "Instructor",
@@ -2557,7 +2558,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 818,
+      "id": 747,
       "conn": "LN7HzHmR",
       "server": "EWOK",
       "team": "Instructor",
@@ -2574,7 +2575,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 819,
+      "id": 748,
       "conn": "NkNIUL6b",
       "server": "EWOK",
       "team": "Instructor",
@@ -2591,7 +2592,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 820,
+      "id": 749,
       "conn": "bZ2clva4",
       "server": "EWOK",
       "team": "Instructor",
@@ -2608,7 +2609,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 822,
+      "id": 750,
       "conn": "nZXZG70Z",
       "server": "EWOK",
       "team": "Instructor",
@@ -2625,7 +2626,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 668,
+      "id": 572,
       "conn": "jCiitlM2",
       "server": "EWOK",
       "team": "Instructor",
@@ -2642,7 +2643,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 826,
+      "id": 751,
       "conn": "YcTwjytp",
       "server": "EWOK",
       "team": "Instructor",
@@ -2659,7 +2660,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 827,
+      "id": 752,
       "conn": "eR2noMQt",
       "server": "EWOK",
       "team": "Instructor",
@@ -2676,7 +2677,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 823,
+      "id": 753,
       "conn": "OOPQXRe1",
       "server": "EWOK",
       "team": "Instructor",
@@ -2693,7 +2694,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 824,
+      "id": 754,
       "conn": "W2YlYKQb",
       "server": "EWOK",
       "team": "Instructor",
@@ -2710,7 +2711,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 828,
+      "id": 755,
       "conn": "CLe2Gmav",
       "server": "EWOK",
       "team": "Instructor",
@@ -2727,7 +2728,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 829,
+      "id": 756,
       "conn": "39sr8le8",
       "server": "EWOK",
       "team": "Instructor",
@@ -2744,7 +2745,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 830,
+      "id": 757,
       "conn": "m6mHUmMC",
       "server": "EWOK",
       "team": "Instructor",
@@ -2761,7 +2762,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 831,
+      "id": 758,
       "conn": "Sq7UymZI",
       "server": "EWOK",
       "team": "Instructor",
@@ -2778,7 +2779,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 832,
+      "id": 759,
       "conn": "s7OqZEK9",
       "server": "EWOK",
       "team": "Instructor",
@@ -2795,7 +2796,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 833,
+      "id": 760,
       "conn": "o3eApeES",
       "server": "EWOK",
       "team": "Instructor",
@@ -2812,7 +2813,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 825,
+      "id": 761,
       "conn": "JTXMop31",
       "server": "EWOK",
       "team": "Instructor",
@@ -2829,7 +2830,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 834,
+      "id": 762,
       "conn": "lZwmuMTi",
       "server": "EWOK",
       "team": "Instructor",
@@ -2846,7 +2847,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 835,
+      "id": 763,
       "conn": "5qktF0zq",
       "server": "EWOK",
       "team": "Instructor",
@@ -2863,7 +2864,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 836,
+      "id": 764,
       "conn": "NuTCoZgU",
       "server": "EWOK",
       "team": "Instructor",
@@ -2880,7 +2881,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 837,
+      "id": 765,
       "conn": "7gUi3rfG",
       "server": "EWOK",
       "team": "Instructor",
@@ -2897,7 +2898,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 838,
+      "id": 766,
       "conn": "6BgqYnZG",
       "server": "EWOK",
       "team": "Instructor",
@@ -2914,7 +2915,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 844,
+      "id": 767,
       "conn": "mx15CWjg",
       "server": "EWOK",
       "team": "Instructor",
@@ -2931,7 +2932,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 845,
+      "id": 768,
       "conn": "E9ZdQxI3",
       "server": "EWOK",
       "team": "Instructor",
@@ -2948,7 +2949,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 846,
+      "id": 769,
       "conn": "2iQ8lNYt",
       "server": "EWOK",
       "team": "Instructor",
@@ -2965,7 +2966,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 847,
+      "id": 770,
       "conn": "tiNIyKtq",
       "server": "EWOK",
       "team": "Instructor",
@@ -2982,7 +2983,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 848,
+      "id": 771,
       "conn": "ktF5iiiu",
       "server": "EWOK",
       "team": "Instructor",
@@ -2999,7 +3000,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 839,
+      "id": 772,
       "conn": "C0d6Hbvw",
       "server": "EWOK",
       "team": "Instructor",
@@ -3016,7 +3017,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 840,
+      "id": 773,
       "conn": "sHfbZPZY",
       "server": "EWOK",
       "team": "Instructor",
@@ -3033,7 +3034,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 841,
+      "id": 774,
       "conn": "wVvZQlNS",
       "server": "EWOK",
       "team": "Instructor",
@@ -3050,7 +3051,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 842,
+      "id": 775,
       "conn": "chnFp76e",
       "server": "EWOK",
       "team": "Instructor",
@@ -3067,7 +3068,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 843,
+      "id": 776,
       "conn": "M0HIcAve",
       "server": "EWOK",
       "team": "Instructor",
@@ -3084,7 +3085,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 669,
+      "id": 573,
       "conn": "plawFH6n",
       "server": "EWOK",
       "team": "Instructor",
@@ -3101,7 +3102,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 853,
+      "id": 777,
       "conn": "BAm4HGci",
       "server": "EWOK",
       "team": "Instructor",
@@ -3118,7 +3119,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 854,
+      "id": 778,
       "conn": "XSWrdq8b",
       "server": "EWOK",
       "team": "Instructor",
@@ -3135,7 +3136,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 855,
+      "id": 779,
       "conn": "Jg6zwIVS",
       "server": "EWOK",
       "team": "Instructor",
@@ -3152,7 +3153,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 856,
+      "id": 780,
       "conn": "VywzpBAH",
       "server": "EWOK",
       "team": "Instructor",
@@ -3169,7 +3170,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 857,
+      "id": 781,
       "conn": "z8mLiLRo",
       "server": "EWOK",
       "team": "Instructor",
@@ -3186,7 +3187,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 858,
+      "id": 782,
       "conn": "u9FTGLB7",
       "server": "EWOK",
       "team": "Instructor",
@@ -3203,7 +3204,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 859,
+      "id": 783,
       "conn": "IBhLdbnn",
       "server": "EWOK",
       "team": "Instructor",
@@ -3220,7 +3221,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 849,
+      "id": 784,
       "conn": "Px3jTKDS",
       "server": "EWOK",
       "team": "Instructor",
@@ -3237,7 +3238,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 850,
+      "id": 785,
       "conn": "JPypZ3TB",
       "server": "EWOK",
       "team": "Instructor",
@@ -3254,7 +3255,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 860,
+      "id": 786,
       "conn": "v2R7epAW",
       "server": "EWOK",
       "team": "Instructor",
@@ -3271,7 +3272,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 861,
+      "id": 787,
       "conn": "tvlsRuOZ",
       "server": "EWOK",
       "team": "Instructor",
@@ -3288,7 +3289,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 862,
+      "id": 788,
       "conn": "UkmtbLQQ",
       "server": "EWOK",
       "team": "Instructor",
@@ -3305,7 +3306,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 863,
+      "id": 789,
       "conn": "lKXi0pon",
       "server": "EWOK",
       "team": "Instructor",
@@ -3322,7 +3323,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 864,
+      "id": 790,
       "conn": "48iGdHJp",
       "server": "EWOK",
       "team": "Instructor",
@@ -3339,7 +3340,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 852,
+      "id": 791,
       "conn": "M30GcXso",
       "server": "EWOK",
       "team": "Instructor",
@@ -3356,7 +3357,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 869,
+      "id": 792,
       "conn": "2ZrBeZRI",
       "server": "EWOK",
       "team": "Instructor",
@@ -3373,7 +3374,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 870,
+      "id": 793,
       "conn": "RxWHpqrv",
       "server": "EWOK",
       "team": "Instructor",
@@ -3390,7 +3391,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 851,
+      "id": 794,
       "conn": "SKpJQbGf",
       "server": "EWOK",
       "team": "Instructor",
@@ -3407,7 +3408,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 865,
+      "id": 795,
       "conn": "68ZWZuts",
       "server": "EWOK",
       "team": "Instructor",
@@ -3424,7 +3425,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 866,
+      "id": 796,
       "conn": "6EklLa9C",
       "server": "EWOK",
       "team": "Instructor",
@@ -3441,7 +3442,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 867,
+      "id": 797,
       "conn": "nteD4tkj",
       "server": "EWOK",
       "team": "Instructor",
@@ -3458,7 +3459,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 868,
+      "id": 798,
       "conn": "H0Lo4ifV",
       "server": "EWOK",
       "team": "Instructor",
@@ -3475,7 +3476,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 670,
+      "id": 574,
       "conn": "6TtHsk6W",
       "server": "EWOK",
       "team": "Instructor",
@@ -3492,7 +3493,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 676,
+      "id": 580,
       "conn": "48ynDZgv",
       "server": "EWOK",
       "team": "Instructor",
@@ -3509,7 +3510,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 887,
+      "id": 801,
       "conn": "4MurtmaC",
       "server": "EWOK",
       "team": "Instructor",
@@ -3526,7 +3527,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 871,
+      "id": 802,
       "conn": "QL2g6xeZ",
       "server": "EWOK",
       "team": "Instructor",
@@ -3543,7 +3544,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 872,
+      "id": 803,
       "conn": "jDmlAOzd",
       "server": "EWOK",
       "team": "Instructor",
@@ -3560,7 +3561,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 873,
+      "id": 804,
       "conn": "MwSiziah",
       "server": "EWOK",
       "team": "Instructor",
@@ -3577,7 +3578,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 874,
+      "id": 805,
       "conn": "S3B9K6s3",
       "server": "EWOK",
       "team": "Instructor",
@@ -3594,7 +3595,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 875,
+      "id": 806,
       "conn": "CfWE2uvl",
       "server": "EWOK",
       "team": "Instructor",
@@ -3611,7 +3612,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 876,
+      "id": 807,
       "conn": "r5tXaxYW",
       "server": "EWOK",
       "team": "Instructor",
@@ -3628,7 +3629,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 877,
+      "id": 808,
       "conn": "xg4TBNnl",
       "server": "EWOK",
       "team": "Instructor",
@@ -3645,7 +3646,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 878,
+      "id": 809,
       "conn": "hjK5M3rN",
       "server": "EWOK",
       "team": "Instructor",
@@ -3662,7 +3663,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 879,
+      "id": 810,
       "conn": "x83OP6g5",
       "server": "EWOK",
       "team": "Instructor",
@@ -3679,7 +3680,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 880,
+      "id": 811,
       "conn": "EBoESn8E",
       "server": "EWOK",
       "team": "Instructor",
@@ -3696,7 +3697,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 881,
+      "id": 812,
       "conn": "HjOgVl2b",
       "server": "EWOK",
       "team": "Instructor",
@@ -3713,7 +3714,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 882,
+      "id": 813,
       "conn": "kRMTJyqN",
       "server": "EWOK",
       "team": "Instructor",
@@ -3730,7 +3731,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 883,
+      "id": 814,
       "conn": "15bsfooY",
       "server": "EWOK",
       "team": "Instructor",
@@ -3747,7 +3748,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 884,
+      "id": 815,
       "conn": "HGYjFZVJ",
       "server": "EWOK",
       "team": "Instructor",
@@ -3764,7 +3765,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 885,
+      "id": 816,
       "conn": "RA4DDpuJ",
       "server": "EWOK",
       "team": "Instructor",
@@ -3781,7 +3782,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 886,
+      "id": 817,
       "conn": "HE5yA9f5",
       "server": "EWOK",
       "team": "Instructor",
@@ -3798,7 +3799,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 888,
+      "id": 818,
       "conn": "fv317UGo",
       "server": "EWOK",
       "team": "Instructor",
@@ -3815,7 +3816,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 889,
+      "id": 819,
       "conn": "JxifjgVu",
       "server": "EWOK",
       "team": "Instructor",
@@ -3832,7 +3833,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 890,
+      "id": 820,
       "conn": "YfAqnmO7",
       "server": "EWOK",
       "team": "Instructor",
@@ -3849,7 +3850,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 891,
+      "id": 821,
       "conn": "UYWCgj2u",
       "server": "EWOK",
       "team": "Instructor",
@@ -3866,7 +3867,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 892,
+      "id": 822,
       "conn": "Ipsqcknc",
       "server": "EWOK",
       "team": "Instructor",
@@ -3883,7 +3884,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 893,
+      "id": 823,
       "conn": "mmJWCUgY",
       "server": "EWOK",
       "team": "Instructor",
@@ -3900,7 +3901,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 894,
+      "id": 824,
       "conn": "Qs8uc2zS",
       "server": "EWOK",
       "team": "Instructor",
@@ -3917,7 +3918,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 895,
+      "id": 825,
       "conn": "mUY1g9Tg",
       "server": "EWOK",
       "team": "Instructor",
@@ -3934,7 +3935,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 896,
+      "id": 826,
       "conn": "grfV5loo",
       "server": "EWOK",
       "team": "Instructor",
@@ -3951,7 +3952,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 672,
+      "id": 581,
       "conn": "XCe0r1pf",
       "server": "EWOK",
       "team": "Instructor",
@@ -3968,7 +3969,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 915,
+      "id": 827,
       "conn": "FxUKADRh",
       "server": "EWOK",
       "team": "Instructor",
@@ -3985,7 +3986,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 897,
+      "id": 828,
       "conn": "XyFZBTWb",
       "server": "EWOK",
       "team": "Instructor",
@@ -4002,7 +4003,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 898,
+      "id": 829,
       "conn": "7MIEshjc",
       "server": "EWOK",
       "team": "Instructor",
@@ -4019,7 +4020,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 899,
+      "id": 830,
       "conn": "w3mjaVDV",
       "server": "EWOK",
       "team": "Instructor",
@@ -4036,7 +4037,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 900,
+      "id": 831,
       "conn": "6qEgBa3H",
       "server": "EWOK",
       "team": "Instructor",
@@ -4053,7 +4054,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 901,
+      "id": 832,
       "conn": "A6neBkDC",
       "server": "EWOK",
       "team": "Instructor",
@@ -4070,7 +4071,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 902,
+      "id": 833,
       "conn": "FNAQiPhq",
       "server": "EWOK",
       "team": "Instructor",
@@ -4087,7 +4088,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 916,
+      "id": 834,
       "conn": "KrsIlX8t",
       "server": "EWOK",
       "team": "Instructor",
@@ -4104,7 +4105,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 903,
+      "id": 835,
       "conn": "3BtB4SXB",
       "server": "EWOK",
       "team": "Instructor",
@@ -4121,7 +4122,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 904,
+      "id": 836,
       "conn": "UK4q07T2",
       "server": "EWOK",
       "team": "Instructor",
@@ -4138,7 +4139,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 905,
+      "id": 837,
       "conn": "5e5sUM2F",
       "server": "EWOK",
       "team": "Instructor",
@@ -4155,7 +4156,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 906,
+      "id": 838,
       "conn": "mt183CRY",
       "server": "EWOK",
       "team": "Instructor",
@@ -4172,7 +4173,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 907,
+      "id": 839,
       "conn": "wODIuaQJ",
       "server": "EWOK",
       "team": "Instructor",
@@ -4189,7 +4190,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 908,
+      "id": 840,
       "conn": "0owxODPk",
       "server": "EWOK",
       "team": "Instructor",
@@ -4206,7 +4207,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 909,
+      "id": 841,
       "conn": "mT8DUcOC",
       "server": "EWOK",
       "team": "Instructor",
@@ -4223,7 +4224,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 910,
+      "id": 842,
       "conn": "FTrUUpqx",
       "server": "EWOK",
       "team": "Instructor",
@@ -4240,7 +4241,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 911,
+      "id": 843,
       "conn": "w9AIMVdI",
       "server": "EWOK",
       "team": "Instructor",
@@ -4257,7 +4258,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 912,
+      "id": 844,
       "conn": "J1kCeb0r",
       "server": "EWOK",
       "team": "Instructor",
@@ -4274,7 +4275,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 913,
+      "id": 845,
       "conn": "huBUO0Fv",
       "server": "EWOK",
       "team": "Instructor",
@@ -4291,7 +4292,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 914,
+      "id": 846,
       "conn": "tpBsI4eC",
       "server": "EWOK",
       "team": "Instructor",
@@ -4308,7 +4309,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 917,
+      "id": 847,
       "conn": "QrTEX06d",
       "server": "EWOK",
       "team": "Instructor",
@@ -4325,7 +4326,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 918,
+      "id": 848,
       "conn": "y53U8hkF",
       "server": "EWOK",
       "team": "Instructor",
@@ -4342,7 +4343,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 919,
+      "id": 849,
       "conn": "oHmve8wW",
       "server": "EWOK",
       "team": "Instructor",
@@ -4359,7 +4360,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 920,
+      "id": 850,
       "conn": "KhhpIpA4",
       "server": "EWOK",
       "team": "Instructor",
@@ -4376,7 +4377,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 921,
+      "id": 851,
       "conn": "GaLJ5PE9",
       "server": "EWOK",
       "team": "Instructor",
@@ -4393,7 +4394,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 922,
+      "id": 852,
       "conn": "tHLeQXPV",
       "server": "EWOK",
       "team": "Instructor",
@@ -4410,7 +4411,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 673,
+      "id": 582,
       "conn": "flmihGZX",
       "server": "EWOK",
       "team": "Instructor",
@@ -4427,7 +4428,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 923,
+      "id": 853,
       "conn": "zgo7e7CF",
       "server": "EWOK",
       "team": "Instructor",
@@ -4444,7 +4445,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 924,
+      "id": 854,
       "conn": "VDT5k7Hc",
       "server": "EWOK",
       "team": "Instructor",
@@ -4461,7 +4462,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 925,
+      "id": 855,
       "conn": "1LfFlpcv",
       "server": "EWOK",
       "team": "Instructor",
@@ -4478,7 +4479,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 926,
+      "id": 856,
       "conn": "ym2Ljt0x",
       "server": "EWOK",
       "team": "Instructor",
@@ -4495,7 +4496,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 927,
+      "id": 857,
       "conn": "wcwy21Xm",
       "server": "EWOK",
       "team": "Instructor",
@@ -4512,7 +4513,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 928,
+      "id": 858,
       "conn": "XyNlFAID",
       "server": "EWOK",
       "team": "Instructor",
@@ -4529,7 +4530,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 929,
+      "id": 859,
       "conn": "MvhdB3nW",
       "server": "EWOK",
       "team": "Instructor",
@@ -4546,7 +4547,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 930,
+      "id": 860,
       "conn": "89hWdmsX",
       "server": "EWOK",
       "team": "Instructor",
@@ -4563,7 +4564,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 931,
+      "id": 861,
       "conn": "ooEGHgKz",
       "server": "EWOK",
       "team": "Instructor",
@@ -4580,7 +4581,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 932,
+      "id": 862,
       "conn": "zyaQm3I1",
       "server": "EWOK",
       "team": "Instructor",
@@ -4597,7 +4598,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 933,
+      "id": 863,
       "conn": "m7mP9XkR",
       "server": "EWOK",
       "team": "Instructor",
@@ -4614,7 +4615,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 934,
+      "id": 864,
       "conn": "rMaTcEFM",
       "server": "EWOK",
       "team": "Instructor",
@@ -4631,7 +4632,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 935,
+      "id": 865,
       "conn": "D18BQMat",
       "server": "EWOK",
       "team": "Instructor",
@@ -4648,7 +4649,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 936,
+      "id": 866,
       "conn": "VHgYkttG",
       "server": "EWOK",
       "team": "Instructor",
@@ -4665,7 +4666,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 937,
+      "id": 867,
       "conn": "7QdkAF1w",
       "server": "EWOK",
       "team": "Instructor",
@@ -4682,7 +4683,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 938,
+      "id": 868,
       "conn": "kaqWviss",
       "server": "EWOK",
       "team": "Instructor",
@@ -4699,7 +4700,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 939,
+      "id": 869,
       "conn": "ZJo1Vape",
       "server": "EWOK",
       "team": "Instructor",
@@ -4716,7 +4717,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 940,
+      "id": 870,
       "conn": "BNKXqEKc",
       "server": "EWOK",
       "team": "Instructor",
@@ -4733,7 +4734,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 941,
+      "id": 871,
       "conn": "aNBvPN1v",
       "server": "EWOK",
       "team": "Instructor",
@@ -4750,7 +4751,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 942,
+      "id": 872,
       "conn": "oGQ6mDDX",
       "server": "EWOK",
       "team": "Instructor",
@@ -4767,7 +4768,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 943,
+      "id": 873,
       "conn": "ex5kDOYg",
       "server": "EWOK",
       "team": "Instructor",
@@ -4784,7 +4785,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 944,
+      "id": 874,
       "conn": "uFouNvpY",
       "server": "EWOK",
       "team": "Instructor",
@@ -4801,7 +4802,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 674,
+      "id": 583,
       "conn": "vQiszBy1",
       "server": "EWOK",
       "team": "Instructor",
@@ -4818,7 +4819,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 945,
+      "id": 875,
       "conn": "iRj1B1xi",
       "server": "EWOK",
       "team": "Instructor",
@@ -4835,7 +4836,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 946,
+      "id": 876,
       "conn": "i7sD8KVY",
       "server": "EWOK",
       "team": "Instructor",
@@ -4852,7 +4853,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 947,
+      "id": 877,
       "conn": "ZLNRrsTC",
       "server": "EWOK",
       "team": "Instructor",
@@ -4869,7 +4870,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 948,
+      "id": 878,
       "conn": "Lcf8U7jD",
       "server": "EWOK",
       "team": "Instructor",
@@ -4886,7 +4887,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 949,
+      "id": 879,
       "conn": "8WE21C6j",
       "server": "EWOK",
       "team": "Instructor",
@@ -4903,7 +4904,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 950,
+      "id": 880,
       "conn": "qrwIG18k",
       "server": "EWOK",
       "team": "Instructor",
@@ -4920,7 +4921,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 951,
+      "id": 881,
       "conn": "6FnPk7DJ",
       "server": "EWOK",
       "team": "Instructor",
@@ -4937,7 +4938,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 952,
+      "id": 882,
       "conn": "mbZsuyMx",
       "server": "EWOK",
       "team": "Instructor",
@@ -4954,7 +4955,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 953,
+      "id": 883,
       "conn": "v14Vfgqz",
       "server": "EWOK",
       "team": "Instructor",
@@ -4971,7 +4972,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 954,
+      "id": 884,
       "conn": "DNPPntLz",
       "server": "EWOK",
       "team": "Instructor",
@@ -4988,7 +4989,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 955,
+      "id": 885,
       "conn": "SikNDrv9",
       "server": "EWOK",
       "team": "Instructor",
@@ -5005,7 +5006,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 956,
+      "id": 886,
       "conn": "s6a5f3wz",
       "server": "EWOK",
       "team": "Instructor",
@@ -5022,7 +5023,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 957,
+      "id": 887,
       "conn": "d6gufQvA",
       "server": "EWOK",
       "team": "Instructor",
@@ -5039,7 +5040,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 958,
+      "id": 888,
       "conn": "vrSfHeE1",
       "server": "EWOK",
       "team": "Instructor",
@@ -5056,7 +5057,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 959,
+      "id": 889,
       "conn": "HhGj8Wxe",
       "server": "EWOK",
       "team": "Instructor",
@@ -5073,7 +5074,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 960,
+      "id": 890,
       "conn": "CMB6nzam",
       "server": "EWOK",
       "team": "Instructor",
@@ -5090,7 +5091,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 961,
+      "id": 891,
       "conn": "mR24v1Qz",
       "server": "EWOK",
       "team": "Instructor",
@@ -5107,7 +5108,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 962,
+      "id": 892,
       "conn": "Gse8QhFd",
       "server": "EWOK",
       "team": "Instructor",
@@ -5124,7 +5125,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 963,
+      "id": 893,
       "conn": "SKQIK2SK",
       "server": "EWOK",
       "team": "Instructor",
@@ -5141,7 +5142,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 964,
+      "id": 894,
       "conn": "hjxDyGLi",
       "server": "EWOK",
       "team": "Instructor",
@@ -5158,7 +5159,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 965,
+      "id": 895,
       "conn": "Vfo8ifvj",
       "server": "EWOK",
       "team": "Instructor",
@@ -5175,7 +5176,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 966,
+      "id": 896,
       "conn": "jxfF0Ls2",
       "server": "EWOK",
       "team": "Instructor",
@@ -5192,7 +5193,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 967,
+      "id": 897,
       "conn": "OzODswoz",
       "server": "EWOK",
       "team": "Instructor",
@@ -5209,7 +5210,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 968,
+      "id": 898,
       "conn": "5jfpWFRo",
       "server": "EWOK",
       "team": "Instructor",
@@ -5226,7 +5227,7 @@ exports.seed = async function (knex) {
       "active": true
     },
     {
-      "id": 675,
+      "id": 584,
       "conn": "1lTkhLBf",
       "server": "EWOK",
       "team": "Instructor",
