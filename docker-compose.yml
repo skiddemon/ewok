@@ -29,6 +29,7 @@ services:
   ewok-api:
     build: api/
     container_name: api_2
+    restart: always
     depends_on:
       ewok-db:
         condition: service_healthy

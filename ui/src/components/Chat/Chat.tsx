@@ -15,7 +15,7 @@ const Chat = () => {
         if ( update.server !== ewok.server ) return;
         const tmpMessages = {...messages};
         tmpMessages.messages.push(update.message);
-        if (typedMessage.length != 0) queuedMessage = true
+        if (typedMessage.length !== 0) queuedMessage = true
         if (socket.id === update.id){
             tmpMessages.currentMessage = ''
             typedMessage = []

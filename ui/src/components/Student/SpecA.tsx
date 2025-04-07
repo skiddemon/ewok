@@ -20,7 +20,7 @@ const SpecA = ({ unit_name } : { unit_name: string}) => {
     }, [plotTimer]);
     
     // Hold settings in state noting that only one piece of equipment is being used
-    const tmpSettings = {cf: 1500, bw: 1000, lb: -101, ub: -70, ll: -101, ul: -70};
+    const tmpSettings = {cf: 1500, bw: 1000, lb: -101, ub: -55};
     
     const [ settings, setSettings ] = useState(tmpSettings);
     const [ specA, setSpecA ] = useState(tmpSettings);
